@@ -1,7 +1,6 @@
 provider "aws" {
   region = "ap-south-1"
-  access_key= "AKIAVDXGEISZZYO5DGXB"
-  secret_key= "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"	
+
 }
 
 resource "aws_instance"  "task_6"  {
